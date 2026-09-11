@@ -1,0 +1,40 @@
+# ================================
+# StarDazzler - .gitignore
+# ================================
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# ---- Virtual Environment ----
+venv/
+ENV/
+env/
+.venv/
+
+# ---- PyInstaller ----
+*.toc
+xref-*.html
+warn-*.txt
+Analysis-*
+EXE-*
+PKG-*
+PYZ-*
+*.spec
+
+# ---- IDE ----
+.vscode/
+.idea/
+*.swp
+*~
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+Desktop.ini
